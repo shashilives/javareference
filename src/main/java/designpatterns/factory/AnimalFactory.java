@@ -1,0 +1,1 @@
+package designpatterns.factory;public class AnimalFactory {    public static Animal getAnimal(String typeOfAnimal) {        if (typeOfAnimal.equals("D")) {            return new Dog();        } else if (typeOfAnimal.equals("C")) {            return new Cat();        } else            return null;    }}

@@ -1,1 +1,1 @@
-package designpatterns.solid.o.latest;import java.util.List;import java.util.stream.Stream;public interface Filter<T> {    public Stream<T> filter(List<T> items, Specification specification);}
+package designpatterns.solid.o.latest;import java.util.List;import java.util.stream.Stream;public interface Filter<T> {    // In this new impl -- the imple filter never changes -- thus closed for modification    // where as we can crete n number of specifications -- thus open for expansion    public Stream<T> filter(List<T> items, Specification<T> specification);}

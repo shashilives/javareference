@@ -1,0 +1,1 @@
+package designpatterns.builder;public class Main {    // We use builder pattern to ease the creation of objects    public static void main(String[] args) {        Employee.Builder employeeBuilder = new Employee.Builder();        Employee employee = employeeBuilder.setId(1).setName("Shashi").setSalary(10000).build();        System.out.println(employee);    }}

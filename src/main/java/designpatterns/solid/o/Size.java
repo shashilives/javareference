@@ -1,0 +1,1 @@
+package designpatterns.solid.o;public enum Size {    SMALL, MEDIUM, LARGE}

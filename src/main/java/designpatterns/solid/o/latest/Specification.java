@@ -1,0 +1,1 @@
+package designpatterns.solid.o.latest;public interface Specification<T> {    public boolean isSatisfied(T t);}

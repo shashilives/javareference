@@ -1,0 +1,1 @@
+package designpatterns.solid.o;public enum Color {    RED, GREEN, YELLOW}

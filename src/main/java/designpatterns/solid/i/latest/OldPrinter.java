@@ -1,0 +1,1 @@
+package designpatterns.solid.i.latest;public class OldPrinter implements Printer {    @Override    public void print() {    }}

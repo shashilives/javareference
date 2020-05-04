@@ -1,0 +1,1 @@
+package designpatterns.solid.l;public class Main {    public static void main(String[] args) {        Rectangle rc = new Rectangle(10, 20);        System.out.println("Rectangle area " + rc.calcArea());        Rectangle sq = new Square(10);        System.out.println("Square area " + sq.calcArea());    }}

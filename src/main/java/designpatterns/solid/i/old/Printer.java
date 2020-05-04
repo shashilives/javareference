@@ -1,0 +1,1 @@
+package designpatterns.solid.i.old;public interface Printer {    public void print();    void fax();    void scan();}

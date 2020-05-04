@@ -56,5 +56,4 @@ public class SubArraySumK {
     }
 }
 
-// This code is contributed by Rituraj Jain
 

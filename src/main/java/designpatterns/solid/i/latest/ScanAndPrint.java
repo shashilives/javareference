@@ -1,0 +1,1 @@
+package designpatterns.solid.i.latest;public interface ScanAndPrint extends Printer, Scanner {}

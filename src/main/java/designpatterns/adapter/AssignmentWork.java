@@ -1,0 +1,1 @@
+package designpatterns.adapter;public class AssignmentWork {    Pen pen;    public void doWork(String str) {        pen.write(str);    }    public void setPen(Pen pen) {        this.pen = pen;    }}

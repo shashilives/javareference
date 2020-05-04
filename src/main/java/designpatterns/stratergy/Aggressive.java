@@ -1,0 +1,1 @@
+package designpatterns.stratergy;public class Aggressive implements Stratergy {    @Override    public void action() {        System.out.println(                "We are aggerssive"        );    }}

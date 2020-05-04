@@ -1,0 +1,1 @@
+package designpatterns.stratergy;public interface Stratergy {    public void action();}
